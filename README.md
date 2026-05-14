@@ -16,6 +16,13 @@ Manter o código desacoplado em arquivos específicos não é apenas capricho; �
 2. **Escalabilidade**: Se amanhã eu decidir trocar o Chart.js por outra biblioteca, eu altero apenas a camada de UI, mantendo o "Core" intacto.
 3. **Testabilidade**: Arquivos isolados na `/src` permitem a implementação de testes unitários em lógica financeira complexa sem interferência do DOM.
 
+ <p align="center">
+  <i><font color="grey">
+    "Zona de conforto é a zona de perigo.<br>
+    <b>𝔊𝔯𝔞𝔳𝔢𝔰𝔱𝔬𝔫𝔢 ℌ𝔢𝔫𝔯𝔶</b> — Entre logs, códigos e o abismo do servidor." 
+  </font></i>
+</p>
+
 ### Estrutura do Repositório:
 ```text
 /src
@@ -31,9 +38,4 @@ Manter o código desacoplado em arquivos específicos não é apenas capricho; �
  └── index.html             # A interface final otimizada para o GitHub Pages
 
 
-<p align="center">
-  <i><font color="grey">
-    "Zona de conforto é a zona de perigo.<br>
-    <b>𝔊𝔯𝔞𝔳𝔢𝔰𝔱𝔬𝔫𝔢 ℌ𝔢𝔫𝔯𝔶</b> — Entre logs, códigos e o abismo do servidor." 
-  </font></i>
-</p>
+
